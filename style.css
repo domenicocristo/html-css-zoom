@@ -3,3 +3,74 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 50px;
+    background-color: black;
+}
+
+header button {
+    color: white;
+    background-color: #2d2d2d;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    height: 30px;
+    width: 130px;
+    cursor: pointer;
+}
+
+#ridimensiona {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+#a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: calc(100vh - 110px);
+    width: 5%;
+}
+
+#a i {
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+#b {
+    background-color: violet;
+    height: calc(100vh - 110px);
+    width: 90%;
+}
+
+#c {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: calc(100vh - 110px);
+    width: 5%;
+}
+
+#c i {
+    color: #2ebaff;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+footer {
+    height: 60px;
+    background-color: #202223;
+}
