@@ -2,8 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
+/* Barra in alto */
 header {
     display: flex;
     align-items: center;
@@ -28,59 +30,94 @@ header button {
     margin-right: 10px;
     margin-left: 5px;
 }
+/* /Barra in alto */
 
+/* Container Blocchi */
 main {
     display: flex;
     justify-content: space-between;
 }
 
-main div:nth-child(1) {
+/* Barra sinistra */
+#left {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     background-color: black;
     height: calc(100vh - 110px);
     width: 5%;
 }
 
-main div:nth-child(1) i {
+#left i {
     color: white;
     font-size: 50px;
     cursor: pointer;
 }
 
-main div:nth-child(2) {
-    background-color: violet;
+#left div {
+    color: white;
+}
+/* /Barra sinistra */
+
+/* Blocchi */
+#center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
     height: calc(100vh - 110px);
     width: 90%;
 }
 
-#container-blocks div {
-    height: 200px;
-    width: 400px;
+.person { 
+    display: flex;
+    position: relative;
+    height: 150px;
+    width: 260px;
+    margin: 3px 3px 0 3px;
 }
 
-#container-blocks img {
-    height: 200px;
-    width: 400px;
-    
+#center img { 
+    height: 150px;
+    width: 260px;
+    object-fit: cover;
 }
 
-main div:nth-child(3) {
+.name {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 2px 5px 2px 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.616);
+}
+/* /Blocchi */
+
+/* Barra destra */
+#right {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     background-color: black;
     height: calc(100vh - 110px);
     width: 5%;
 }
 
-main div:nth-child(3) i {
+#right i {
     color: #2ebaff;
     font-size: 50px;
     cursor: pointer;
 }
 
+#right div {
+    color: white;
+}
+/* /Barra destra */
+/* /Container Blocchi */
+
+/* Barra in basso */
 footer {
     display: flex;
     justify-content: space-between;
@@ -93,12 +130,17 @@ footer button {
     border: none;
     color: #dcdcdc;
     background-color: #202223;
-    margin: 10px;
+    margin: 0px 20px 0px 20px;
+    cursor: pointer;
 }
 
 footer i {
     font-size: 25px;
     margin-bottom: 3px;
+}
+
+#screen-share {
+    color: #4bc800;
 }
 
 #chevron-up {
@@ -110,4 +152,6 @@ footer i {
     color: #ef554b;
     background-color: #4b4c4e;
     padding: 25px 10px 20px 10px;
+    margin-right: 0;
 }
+/* /Barra in basso */

@@ -4,37 +4,144 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Zoom</title>
 </head>
 <body>
+    <!-- Barra in alto -->
     <header>
         <button><i class="fas fa-film"></i> Speaker View</button>
         <button id="ridimensiona"><i class="fas fa-expand-arrows-alt"></i></button>
     </header>
+    <!-- /Barra in alto -->
 
+    <!-- Container Blocchi -->
     <main>
-        <div>
+        <!-- Barra sinistra -->
+        <div id="left">
             <a href=""><i class="fas fa-caret-left"></i></a>
+            <div>1/2</div>
         </div>
+        <!-- /Barra sinistra -->
 
         <!-- Blocchi -->
-        <div>
-            <div id="container-blocks">
-                <div>
-                    <img src="img/elon.jpeg" alt="elon">
-                </div>
-                
+         <div id="center">
+            <div class="person">
+                <img src="img/elon.jpeg" alt="elon">
+                <div class="name"><i class="fas fa-microphone-alt-slash"></i> Elon Musk</div>
             </div>
+
+            <div class="person">
+                <img src="img/elon.jpeg" alt="elon">
+                <div class="name"><i class="fas fa-microphone-alt-slash"></i> Elon Musk</div>
+            </div>
+
+            <div class="person">
+                <img src="img/elon.jpeg" alt="elon">
+                <div class="name"><i class="fas fa-microphone-alt-slash"></i> Elon Musk</div>
+            </div>
+
+            <div class="person">
+                <img src="img/elon.jpeg" alt="elon">
+                <div class="name"><i class="fas fa-microphone-alt-slash"></i> Elon Musk</div>
+            </div>
+
+            <div class="person">
+                <img src="img/elon.jpeg" alt="elon">
+                <div class="name"><i class="fas fa-microphone-alt-slash"></i> Elon Musk</div>
+            </div>
+
+            <div class="person">
+                <img src="img/elon.jpeg" alt="elon">
+                <div class="name"><i class="fas fa-microphone-alt-slash"></i> Elon Musk</div>
+            </div>
+
+            <div class="person">
+                <img src="img/elon.jpeg" alt="elon">
+                <div class="name"><i class="fas fa-microphone-alt-slash"></i> Elon Musk</div>
+            </div>
+
+            <div class="person">
+                <img src="img/elon.jpeg" alt="elon">
+                <div class="name"><i class="fas fa-microphone-alt-slash"></i> Elon Musk</div>
+            </div>
+
+            <div class="person">
+                <img src="img/elon.jpeg" alt="elon">
+                <div class="name"><i class="fas fa-microphone-alt-slash"></i> Elon Musk</div>
+            </div>
+
+            <div class="person">
+                <img src="img/elon.jpeg" alt="elon">
+                <div class="name"><i class="fas fa-microphone-alt-slash"></i> Elon Musk</div>
+            </div>
+
+            <div class="person">
+                <img src="img/elon.jpeg" alt="elon">
+                <div class="name"><i class="fas fa-microphone-alt-slash"></i> Elon Musk</div>
+            </div>
+
+            <div class="person">
+                <img src="img/elon.jpeg" alt="elon">
+                <div class="name"><i class="fas fa-microphone-alt-slash"></i> Elon Musk</div>
+            </div>
+
+            <div class="person">
+                <img src="img/elon.jpeg" alt="elon">
+                <div class="name"><i class="fas fa-microphone-alt-slash"></i> Elon Musk</div>
+            </div>
+
+            <div class="person">
+                <img src="img/elon.jpeg" alt="elon">
+                <div class="name"><i class="fas fa-microphone-alt-slash"></i> Elon Musk</div>
+            </div>
+
+            <div class="person">
+                <img src="img/elon.jpeg" alt="elon">
+                <div class="name"><i class="fas fa-microphone-alt-slash"></i> Elon Musk</div>
+            </div>
+
+            <div class="person">
+                <img src="img/elon.jpeg" alt="elon">
+                <div class="name"><i class="fas fa-microphone-alt-slash"></i> Elon Musk</div>
+            </div>
+
+            <div class="person">
+                <img src="img/elon.jpeg" alt="elon">
+                <div class="name"><i class="fas fa-microphone-alt-slash"></i> Elon Musk</div>
+            </div>
+
+            <div class="person">
+                <img src="img/elon.jpeg" alt="elon">
+                <div class="name"><i class="fas fa-microphone-alt-slash"></i> Elon Musk</div>
+            </div>
+
+            <div class="person">
+                <img src="img/elon.jpeg" alt="elon">
+                <div class="name"><i class="fas fa-microphone-alt-slash"></i> Elon Musk</div>
+            </div>
+
+            <div class="person">
+                <img src="img/elon.jpeg" alt="elon">
+                <div class="name"><i class="fas fa-microphone-alt-slash"></i> Elon Musk</div>
+            </div> 
         </div>
         <!-- /Blocchi -->
 
-        <div>
+        <!-- Barra destra -->
+        <div id="right">
             <a href=""><i class="fas fa-caret-right"></i></a>
+            <div>2/2</div>
         </div>
+        <!-- /Barra destra -->
     </main>
+    <!-- /Container Blocchi -->
 
+    <!-- Barra in basso -->
     <footer>
         <div>
             <button><i class="fas fa-microphone"></i><i id="chevron-up" class="fas fa-chevron-up"></i></button>
@@ -45,7 +152,7 @@
             <button><i class="fas fa-user"></i></button>
             <button><i class="fas fa-user-friends"></i></button>
             <button><i class="fas fa-chart-bar"></i></button>
-            <button><i class="fas fa-external-link-alt"></i><i id="chevron-up" class="fas fa-chevron-up"></i></button>
+            <button><i id="screen-share" class="fas fa-external-link-alt"></i><i id="chevron-up" class="fas fa-chevron-up"></i></button>
             <button><i class="fas fa-comment-dots"></i></button>
             <button><i class="fas fa-record-vinyl"></i></button>
             <button><i class="fas fa-th-large"></i></button>
@@ -56,5 +163,6 @@
             <button id="end-meeting">End Meeting</button>
         </div>
     </footer>
+    <!-- /Barra in basso -->
 </body>
 </html>
