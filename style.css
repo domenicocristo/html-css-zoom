@@ -34,7 +34,7 @@ main {
     justify-content: space-between;
 }
 
-#a {
+main div:nth-child(1) {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -43,19 +43,30 @@ main {
     width: 5%;
 }
 
-#a i {
+main div:nth-child(1) i {
     color: white;
     font-size: 50px;
     cursor: pointer;
 }
 
-#b {
+main div:nth-child(2) {
     background-color: violet;
     height: calc(100vh - 110px);
     width: 90%;
 }
 
-#c {
+#container-blocks div {
+    height: 200px;
+    width: 400px;
+}
+
+#container-blocks img {
+    height: 200px;
+    width: 400px;
+    
+}
+
+main div:nth-child(3) {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -64,13 +75,39 @@ main {
     width: 5%;
 }
 
-#c i {
+main div:nth-child(3) i {
     color: #2ebaff;
     font-size: 50px;
     cursor: pointer;
 }
 
 footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 60px;
     background-color: #202223;
+}
+
+footer button {
+    border: none;
+    color: #dcdcdc;
+    background-color: #202223;
+    margin: 10px;
+}
+
+footer i {
+    font-size: 25px;
+    margin-bottom: 3px;
+}
+
+#chevron-up {
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+#end-meeting {
+    color: #ef554b;
+    background-color: #4b4c4e;
+    padding: 25px 10px 20px 10px;
 }
