@@ -68,19 +68,20 @@ main {
     background-color: black;
     height: calc(100vh - 110px);
     width: 90%;
+    overflow-y: auto;
 }
 
 .person { 
     display: flex;
     position: relative;
-    height: 150px;
-    width: 260px;
+    height: 170px;
+    width: 270px;
     margin: 3px 3px 0 3px;
 }
 
 #center img { 
-    height: 150px;
-    width: 260px;
+    height: 170px;
+    width: 270px;
     object-fit: cover;
 }
 
@@ -136,7 +137,7 @@ footer button {
 
 footer i {
     font-size: 25px;
-    margin-bottom: 3px;
+    margin-bottom: 5px;
 }
 
 #screen-share {
